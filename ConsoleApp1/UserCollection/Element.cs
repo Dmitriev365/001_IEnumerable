@@ -2,16 +2,14 @@ using System;
 
 namespace InterIEnumerable
 {
-    // Экземпляры этого класса будет содержать коллекция - UserCollection. 
+
     public class Element
     {
-        // Поля.
 
         private string name;
         private int field1;
         private int field2;
 
-        // Конструктор.
         public Element(string s, int a, int b)
         {
             name = s;
@@ -19,7 +17,6 @@ namespace InterIEnumerable
             field2 = b;
         }
 
-        // Свойства.
 
         public int Field1
         {
