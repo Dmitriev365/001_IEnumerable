@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserCollection", "InterIEnumerable\UserCollection.csproj", "{11659B57-79B5-4620-88D1-D2873521B1A7}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "ConsoleApp1\Collection.csproj", "{8F81D66A-AF97-4ED9-A708-201332B7E37B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{11659B57-79B5-4620-88D1-D2873521B1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11659B57-79B5-4620-88D1-D2873521B1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11659B57-79B5-4620-88D1-D2873521B1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11659B57-79B5-4620-88D1-D2873521B1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F81D66A-AF97-4ED9-A708-201332B7E37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F81D66A-AF97-4ED9-A708-201332B7E37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F81D66A-AF97-4ED9-A708-201332B7E37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F81D66A-AF97-4ED9-A708-201332B7E37B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE140C76-43EB-40F3-A8D2-E9BF65C8AE03}
 	EndGlobalSection
 EndGlobal
