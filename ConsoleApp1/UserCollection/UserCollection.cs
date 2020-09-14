@@ -6,15 +6,15 @@ namespace InterIEnumerable
 
     public class UserCollection : IEnumerable, IEnumerator
     {
-        public Element[] elementsArray = null;
+        public Collection[] elementsArray = null;
 
         public UserCollection()
         {
-            elementsArray = new Element[4];
-            elementsArray[0] = new Element("A", 1, 10);
-            elementsArray[1] = new Element("B", 2, 20);
-            elementsArray[2] = new Element("C", 3, 30);
-            elementsArray[3] = new Element("D", 4, 40);
+            elementsArray = new Collection[4];
+            elementsArray[0] = new Collection("A", 1, 10);
+            elementsArray[1] = new Collection("B", 2, 20);
+            elementsArray[2] = new Collection("C", 3, 30);
+            elementsArray[3] = new Collection("D", 4, 40);
         }
 
         int position = -1;

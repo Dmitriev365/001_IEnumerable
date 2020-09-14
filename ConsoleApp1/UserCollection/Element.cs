@@ -3,20 +3,25 @@ using System;
 namespace InterIEnumerable
 {
 
-    public class Element
+    public class Collection
     {
 
         private string name;
         private int field1;
         private int field2;
 
-        public Element(string s, int a, int b)
+        public Collection(string s, int a, int b)
         {
             name = s;
             field1 = a;
             field2 = b;
         }
 
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
 
         public int Field1
         {
@@ -30,10 +35,5 @@ namespace InterIEnumerable
             set { field2 = value; }
         }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
     }
 }
